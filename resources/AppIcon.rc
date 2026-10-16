@@ -1,0 +1,4 @@
+// AUTO-GENERIERT von tools/gen_icon.ps1 — nicht von Hand editieren.
+#include <windows.h>
+
+1 ICON "app.ico"

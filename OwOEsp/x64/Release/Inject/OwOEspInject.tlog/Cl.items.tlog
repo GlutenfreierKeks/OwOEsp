@@ -1,0 +1,9 @@
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\inject\DllMain.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEsp\x64\Release\Inject\DllMain.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\inject\TestUI.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEsp\x64\Release\Inject\TestUI.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\imgui.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEsp\x64\Release\Inject\imgui.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\imgui_demo.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEsp\x64\Release\Inject\imgui_demo.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\imgui_draw.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEsp\x64\Release\Inject\imgui_draw.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\imgui_tables.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEsp\x64\Release\Inject\imgui_tables.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\imgui_widgets.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEsp\x64\Release\Inject\imgui_widgets.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\backends\imgui_impl_win32.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEsp\x64\Release\Inject\imgui_impl_win32.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\backends\imgui_impl_dx11.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEsp\x64\Release\Inject\imgui_impl_dx11.obj

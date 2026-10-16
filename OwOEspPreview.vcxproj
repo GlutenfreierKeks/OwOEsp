@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{B5A9C2D1-6F3E-4A58-9C21-0E41D8F4A2B7}</ProjectGuid>
+    <RootNamespace>OwOEspPreview</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)x64\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)minhook\include;$(ProjectDir)imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(ProjectDir)minhook\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories><AdditionalDependencies>d3d11.lib;dxgi.lib;MinHook.x64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="memory.h" />
+    <ClInclude Include="Montserrat-Regular.h" />
+    <ClInclude Include="ui\Menu.h" />
+    <ClInclude Include="ui\MenuShared.h" />
+    <ClInclude Include="ui\MenuWidgets.h" />
+    <ClInclude Include="ui\MenuModel.h" />
+    <ClInclude Include="ui\Theme.h" />
+    <ClInclude Include="ui\MenuAssets.h" />
+    <ClInclude Include="core\SDK.h" />
+    <ClInclude Include="core\Globals.h" />
+    <ClInclude Include="core\Config.h" />
+    <ClInclude Include="core\Input.h" />
+    <ClInclude Include="features\Offsets.h" />
+    <ClInclude Include="features\Cache.h" />
+    <ClInclude Include="features\Weapons.h" />
+    <ClInclude Include="features\Reader.h" />
+    <ClInclude Include="features\Bhop.h" />
+    <ClInclude Include="features\Triggerbot.h" />
+    <ClInclude Include="features\Aimbot.h" />
+    <ClInclude Include="features\Recoil.h" />
+    <ClInclude Include="features\ESP.h" />
+    <ClInclude Include="render\Renderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="preview_main.cpp" />
+    <ClCompile Include="core\Globals.cpp" />
+    <ClCompile Include="core\OffsetsUpdater.cpp" />
+    <ClCompile Include="core\Config.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ui\Menu.cpp" />
+    <ClCompile Include="ui\MenuWidgets.cpp" />
+    <ClCompile Include="ui\MenuModel.cpp" />
+    <ClCompile Include="ui\Theme.cpp" />
+    <ClCompile Include="ui\MenuAssets.cpp" />
+    <ClCompile Include="memory.cpp" />
+    <ClCompile Include="imgui\imgui.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_win32.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_dx11.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

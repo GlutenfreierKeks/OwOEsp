@@ -1,0 +1,17 @@
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\preview_main.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\preview_main.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\core\Globals.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\Globals.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\core\OffsetsUpdater.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\OffsetsUpdater.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\core\Config.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\Config.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\pch.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\pch.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\ui\Menu.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\Menu.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\ui\MenuWidgets.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\MenuWidgets.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\ui\MenuModel.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\MenuModel.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\ui\Theme.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\Theme.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\ui\MenuAssets.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\MenuAssets.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\memory.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\memory.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\imgui.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\imgui.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\imgui_draw.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\imgui_draw.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\imgui_tables.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\imgui_tables.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\imgui_widgets.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\imgui_widgets.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\backends\imgui_impl_win32.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\imgui_impl_win32.obj
+C:\Users\glute\source\repos\OwOEsp\OwOEsp\imgui\backends\imgui_impl_dx11.cpp;C:\Users\glute\source\repos\OwOEsp\OwOEsp\OwOEspPreview\x64\Release\imgui_impl_dx11.obj
